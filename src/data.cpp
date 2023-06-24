@@ -8,5 +8,5 @@
                                                                  m_price(price),
                                                                  m_year{year}   
     {
-        std::cout << "default constructor" << std::endl;
+        
     }    
