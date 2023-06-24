@@ -2,6 +2,14 @@
 
 namespace HTML_TAGS
 {
+    #define HEADER_TITLE   "TITLE"
+    #define HEADER_ARTIST  "ARTIST"
+    #define HEADER_COMPANY "COMPANY"
+    #define HEADER_COUNTRY "COUNTRY"
+    #define HEADER_PRICE   "PRICE"
+    #define HEADER_YEAR    "YEAR"
+
+
     #define HTML_OPEN     "<HTML>"
     #define HTML_CLOSE    "</HTML>"
     #define BODY_OPEN     " <BODY>"
@@ -18,4 +26,9 @@ namespace HTML_TAGS
     #define TBODY_CLOSE   "</TBODY>"
     #define TH_OPEN       "<TH>"
     #define TH_CLOSE      "</TH>"
+
+
+
+    
+
 }

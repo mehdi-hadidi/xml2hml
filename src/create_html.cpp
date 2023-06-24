@@ -28,12 +28,12 @@ void CreateHtml::create()
 	for(const Data& cd : m_data)
 	{
 		index_file << TR_OPEN << std::endl;
-		index_file << TD_OPEN << cd.m_title  << TD_CLOSE << std::endl;
-		index_file << TD_OPEN << cd.m_artist  << TD_CLOSE << std::endl;
-		index_file << TD_OPEN << cd.m_company  << TD_CLOSE << std::endl;
-		index_file << TD_OPEN << cd.m_country  << TD_CLOSE << std::endl;
-		index_file << TD_OPEN << cd.m_price  << TD_CLOSE << std::endl;
-		index_file << TD_OPEN << cd.m_year  << TD_CLOSE << std::endl;
+		index_file << TD_OPEN << cd.getTitle()  << TD_CLOSE << std::endl;
+		index_file << TD_OPEN << cd.getArtist()  << TD_CLOSE << std::endl;
+		index_file << TD_OPEN << cd.getCompany()  << TD_CLOSE << std::endl;
+		index_file << TD_OPEN << cd.getCountry()  << TD_CLOSE << std::endl;
+		index_file << TD_OPEN << cd.getPrice()  << TD_CLOSE << std::endl;
+		index_file << TD_OPEN << cd.getYear()  << TD_CLOSE << std::endl;
 		index_file << TR_CLOSE << std::endl;
 	}
 
