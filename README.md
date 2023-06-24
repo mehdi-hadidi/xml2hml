@@ -7,6 +7,3 @@ $ cmake ..
 $ make
 $ cd bin
 $ ./app xxxx.xml
-
-
-
